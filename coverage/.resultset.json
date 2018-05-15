@@ -321,6 +321,27 @@
         1,
         null
       ],
+      "/Users/jamisonordway/Desktop/turing/2module/classroom/enrollment/enrollment/spec/features/user_can_delete_a_student_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/jamisonordway/Desktop/turing/2module/classroom/enrollment/enrollment/spec/features/user_can_edit_a_student_spec.rb": [
         1,
         null,
@@ -382,7 +403,7 @@
         1,
         null,
         1,
-        2,
+        4,
         null,
         null,
         1,
@@ -413,6 +434,12 @@
         null,
         null,
         1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
         null,
         1,
         2,
@@ -434,6 +461,6 @@
         null
       ]
     },
-    "timestamp": 1526415471
+    "timestamp": 1526415950
   }
 }
