@@ -321,6 +321,21 @@
         1,
         null
       ],
+      "/Users/jamisonordway/Desktop/turing/2module/classroom/enrollment/enrollment/spec/features/user_can_see_individual_student_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/jamisonordway/Desktop/turing/2module/classroom/enrollment/enrollment/spec/features/user_can_see_list_of_all_students_spec.rb": [
         1,
         null,
@@ -338,18 +353,12 @@
         null,
         null
       ],
-      "/Users/jamisonordway/Desktop/turing/2module/classroom/enrollment/enrollment/app/models/student.rb": [
-        1,
-        null,
-        null
-      ],
-      "/Users/jamisonordway/Desktop/turing/2module/classroom/enrollment/enrollment/app/models/application_record.rb": [
-        1,
-        1,
-        null
-      ],
       "/Users/jamisonordway/Desktop/turing/2module/classroom/enrollment/enrollment/app/controllers/students_controller.rb": [
         1,
+        null,
+        1,
+        1,
+        null,
         null,
         1,
         1,
@@ -363,8 +372,18 @@
       "/Users/jamisonordway/Desktop/turing/2module/classroom/enrollment/enrollment/app/controllers/application_controller.rb": [
         1,
         null
+      ],
+      "/Users/jamisonordway/Desktop/turing/2module/classroom/enrollment/enrollment/app/models/student.rb": [
+        1,
+        null,
+        null
+      ],
+      "/Users/jamisonordway/Desktop/turing/2module/classroom/enrollment/enrollment/app/models/application_record.rb": [
+        1,
+        1,
+        null
       ]
     },
-    "timestamp": 1526414059
+    "timestamp": 1526414408
   }
 }
