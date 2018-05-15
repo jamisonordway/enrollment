@@ -9,7 +9,7 @@ describe 'User' do
         student_3 = Student.create(name: 'Eliot')
 
         visit students_path
-        save_and_open_page
+    
         click_on "Delete #{student_3.name}"
         expect(current_path).to eq('/students')
         expect(page).to_not have_content(student_3.name)
