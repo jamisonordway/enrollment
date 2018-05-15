@@ -321,8 +321,18 @@
       "/Users/jamisonordway/Desktop/turing/2module/classroom/enrollment/enrollment/app/helpers/application_helper.rb": [
         1,
         null
+      ],
+      "/Users/jamisonordway/Desktop/turing/2module/classroom/enrollment/enrollment/app/models/student.rb": [
+        1,
+        null,
+        null
+      ],
+      "/Users/jamisonordway/Desktop/turing/2module/classroom/enrollment/enrollment/app/models/application_record.rb": [
+        1,
+        1,
+        null
       ]
     },
-    "timestamp": 1526412955
+    "timestamp": 1526413422
   }
 }
