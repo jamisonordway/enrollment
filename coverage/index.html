@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2018-05-15T13:43:42-06:00">2018-05-15T13:43:42-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2018-05-15T13:54:19-06:00">2018-05-15T13:54:19-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,15 +25,15 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.02
+         1.01
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>18</b> files in total.
-    <b>51</b> relevant lines. 
-    <span class="green"><b>51</b> lines covered</span> and
+    <b>21</b> files in total.
+    <b>67</b> relevant lines. 
+    <span class="green"><b>67</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -49,6 +49,26 @@
       </tr>
     </thead>
     <tbody>
+      
+      <tr>
+        <td class="strong"><a href="#3b66a9a4709024a3bb5c6d158d6b35c9a8de4ea3" class="src_link" title="app/controllers/application_controller.rb">app/controllers/application_controller.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#e20329166c643e7f7bc8e616bfad3e6675cded47" class="src_link" title="app/controllers/students_controller.rb">app/controllers/students_controller.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>10</td>
+        <td>5</td>
+        <td>5</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
       
       <tr>
         <td class="strong"><a href="#2ef0df887ca4b7a4ea61d12740fc004ef0de5e1c" class="src_link" title="app/helpers/application_helper.rb">app/helpers/application_helper.rb</a></td>
@@ -213,9 +233,19 @@
       <tr>
         <td class="strong"><a href="#34bb634b3147c9f10c882f5e707425e893436b10" class="src_link" title="config/routes.rb">config/routes.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>5</td>
-        <td>1</td>
-        <td>1</td>
+        <td>4</td>
+        <td>2</td>
+        <td>2</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#801f06324a13761ba23c8c9c25e69c94a1ab96ff" class="src_link" title="spec/features/user_can_see_list_of_all_students_spec.rb">spec/features/user_can_see_list_of_all_students_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>15</td>
+        <td>9</td>
+        <td>9</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -245,6 +275,116 @@
       </div>
     
       <div class="source_files">
+      
+        <div class="source_table" id="3b66a9a4709024a3bb5c6d158d6b35c9a8de4ea3">
+  <div class="header">
+    <h3>app/controllers/application_controller.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>1</b> relevant lines. 
+      <span class="green"><b>1</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class ApplicationController &lt; ActionController::Base</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="e20329166c643e7f7bc8e616bfad3e6675cded47">
+  <div class="header">
+    <h3>app/controllers/students_controller.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>5</b> relevant lines. 
+      <span class="green"><b>5</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class StudentsController &lt; ApplicationController</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def index</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    @students = Student.all</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def show</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    @student = Student.find(params[:id])</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
       
         <div class="source_table" id="2ef0df887ca4b7a4ea61d12740fc004ef0de5e1c">
   <div class="header">
@@ -1713,8 +1853,8 @@
     <h3>config/routes.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>1</b> relevant lines. 
-      <span class="green"><b>1</b> lines covered</span> and
+      <b>2</b> relevant lines. 
+      <span class="green"><b>2</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -1734,19 +1874,122 @@
           <code class="ruby">  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="3">
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby"></code>
+          <code class="ruby">    resources :students </code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="4">
           
           
-          <code class="ruby">  </code>
+          <code class="ruby">end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="5">
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="801f06324a13761ba23c8c9c25e69c94a1ab96ff">
+  <div class="header">
+    <h3>spec/features/user_can_see_list_of_all_students_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>9</b> relevant lines. 
+      <span class="green"><b>9</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;rails_helper&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">describe &#39;User&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  describe &#39;user navigates to student show page&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    it &#39;should show the name of specified student&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      student_1 = Student.create(name: &#39;Jamison&#39;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      student_2 = Student.create(name: &#39;Tyler&#39;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      visit students_path</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="11">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      expect(page).to have_content(student_1.name)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="12">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      expect(page).to have_content(student_2.name)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
           
           
           <code class="ruby">end</code>
